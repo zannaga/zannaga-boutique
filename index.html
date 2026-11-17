@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- VALIDATION GOOGLE - NE PAS SUPPRIMER -->
+<meta name="google-site-verification" content="Ypms129a836AzX1m0kjPATv7niXP4jad684YlKFq-A4" />
+<title>ZANNAGA STORES par ADEVE KOFFI HERVE - Téléphones, Accessoires, Netflix à Lomé</title>
+<meta name="description" content="ZANNAGA STORES par ADEVE KOFFI HERVE à Lomé - iPhone, Samsung, Tecno, Infinix, Accessoires, Netflix, Canal+ au meilleur prix. Commande sur WhatsApp +228 97865996">
+<meta name="author" content="ADEVE KOFFI HERVE">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#050816;color:white;overflow-x:hidden}
+header{position:fixed;top:0;width:100%;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:14px 16px;background:rgba(5,8,22,.92);backdrop-filter:blur(10px)}
+.logo{font-size:22px;font-weight:900;line-height:1}
+.logo span{color:#00e5ff}
+.logo small{font-size:11px;letter-spacing:3px;color:#ffcc00}
+.btn-wa{background:#25D366;color:white;padding:10px 16px;border-radius:50px;text-decoration:none;font-weight:800;font-size:14px}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:110px 16px 30px;background:radial-gradient(circle at 50% 15%,#1a2aff 0%,#6a00ff 30%,#050816 65%)}
+.badge-top{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);padding:8px 14px;border-radius:50px;font-size:13px;font-weight:700}
+.hero h1{font-size:48px;line-height:1.02;font-weight:900;text-transform:uppercase;margin-top:16px;animation:float 3s ease-in-out infinite}
+.hero h1 span{background:linear-gradient(90deg,#00e5ff,#ff00e5,#ffcc00,#00e5ff);background-size:300% 100%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:grad 4s linear infinite}
+@keyframes grad{to{background-position:300% 0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.hero p{margin:16px 0;font-size:16px;opacity:.95;max-width:680px;line-height:1.6}
+.phones{display:flex;gap:12px;margin:22px 0;flex-wrap:wrap;justify-content:center}
+.phone{width:145px;height:285px;border-radius:26px;background:#111;border:4px solid #222;overflow:hidden;position:relative;transform:perspective(600px) rotateY(-10deg);box-shadow:0 20px 40px rgba(0,229,255,.4);animation:float 4s infinite}
+.phone:nth-child(2){transform:perspective(600px) rotateY(0deg) scale(1.08)}
+.phone:nth-child(3){transform:perspective(600px) rotateY(10deg)}
+.phone img{width:100%;height:100%;object-fit:cover}
+.phone b{position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.75);padding:8px;font-size:12px;text-align:center}
+.cta{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.cta a{padding:14px 20px;border-radius:50px;text-decoration:none;font-weight:800;font-size:14px}
+.cta1{background:#00e5ff;color:#000}.cta2{background:white;color:#000}.cta3{background:#25D366;color:white}
+.marquee{background:#ffcc00;color:#000;font-weight:900;padding:12px;overflow:hidden;white-space:nowrap;font-size:14px}
+.marquee span{display:inline-block;animation:scroll 18s linear infinite}
+@keyframes scroll{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+.section{padding:45px 16px;max-width:1150px;margin:auto}
+.section h2{font-size:30px;text-align:center;margin-bottom:6px}
+.section h2 span{color:#00e5ff}
+.sub{text-align:center;opacity:.8;margin-bottom:22px;font-size:15px}
+.cat-title{font-size:20px;font-weight:900;margin:28px 0 14px;background:#12163a;padding:12px 14px;border-radius:14px;border-left:5px solid #00e5ff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px}
+.card{background:#12163a;border:1px solid #2a3070;border-radius:20px;overflow:hidden;transition:.3s}
+.card:hover{transform:translateY(-8px) scale(1.02);box-shadow:0 15px 30px rgba(0,229,255,.35)}
+.card img{width:100%;height:150px;object-fit:cover}
+.card div{padding:13px}
+.card h3{font-size:16px;margin-bottom:4px}
+.card p{font-size:13px;opacity:.8;line-height:1.4;min-height:36px}
+.price{color:#00e5ff;font-weight:900;margin-top:7px;font-size:14px}
+.card a{display:block;text-align:center;background:#25D366;color:white;padding:10px;border-radius:10px;text-decoration:none;margin-top:10px;font-weight:700;font-size:14px}
+.detail-box{background:#0d1133;border:1px solid #2a3070;border-radius:22px;padding:22px 18px;margin-top:18px;line-height:1.9}
+.detail-box h3{font-size:19px;margin:18px 0 8px;color:#00e5ff}
+.detail-box h4{font-size:16px;margin:14px 0 6px;color:#ffcc00}
+.detail-box ul{margin-left:18px;font-size:14px;opacity:.95}
+.app-box{background:linear-gradient(135deg,#6a00ff,#00e5ff);border-radius:25px;padding:28px 18px;text-align:center;margin-top:22px}
+.netflix{background:linear-gradient(135deg,#000,#e50914);border-radius:25px;padding:28px 18px;text-align:center;margin-top:22px;border:1px solid #e50914}
+.canal{background:linear-gradient(135deg,#000,#ffcc00);border-radius:25px;padding:28px 18px;text-align:center;margin-top:18px}
+.canal h3{color:#ffcc00}
+.badges{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.badge{background:white;color:black;padding:10px 14px;border-radius:12px;font-weight:800;font-size:13px}
+.why{background:#0d1133;border-radius:22px;padding:24px 18px;text-align:center;line-height:2;font-size:15px}
+footer{background:#02030a;padding:30px 16px;text-align:center;line-height:1.7}
+footer a{color:#00e5ff;text-decoration:none;font-weight:700}
+.float-wa{position:fixed;bottom:18px;right:18px;background:#25D366;width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;text-decoration:none;z-index:200;box-shadow:0 10px 20px rgba(0,0,0,.5);animation:float 2s infinite}
+</style>
+</head>
+<body>
+
+<header><div class="logo">ZANNAGA <span>STORES</span><br><small>LOMÉ • TOGO</small></div><a class="btn-wa" href="https://wa.me/22897865996?text=Bonjour%20ZANNAGA%20STORES%2C%20je%20veux%20commander">WhatsApp 💬</a></header>
+
+<div class="hero">
+<div class="badge-top">⭐ N°1 À LOMÉ • PRODUITS ORIGINAUX • GARANTIE</div>
+<h1>ZANNAGA<br><span>STORES</span><br>LE FUTUR EST LÀ</h1>
+<p>📱 iPhone • Samsung • Tecno • Infinix • Itel<br>🎧 Accessoires Originaux • 📲 Applications • 🎬 Netflix • 📺 Canal+<br><b>Livraison rapide partout à Lomé - WhatsApp +228 97865996</b></p>
+<div class="phones">
+<div class="phone"><img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400"><b>iPhone 15 Pro Max</b></div>
+<div class="phone"><img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400"><b>Samsung S24 Ultra</b></div>
+<div class="phone"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400"><b>Tecno Camon 30</b></div>
+</div>
+<div class="cta"><a class="cta1" href="#iphone">🍎 VOIR LES iPHONE</a><a class="cta2" href="#apps">📲 APPLICATIONS</a><a class="cta3" href="https://wa.me/22897865996?text=Bonjour%20ZANNAGA%2C%20je%20veux%20commander">Commander sur WhatsApp</a></div>
+</div>
+
+<div class="marquee"><span>🔥 iPhone 11 à 16 Pro Max • Samsung • Tecno • Infinix • Itel • Chargeurs • Écouteurs • Écrans • Applications Enfants & Adultes • Netflix • Canal+ • Livraison Rapide Lomé • ZANNAGA STORES +228 97865996 🔥</span></div>
+
+<div class="section" id="produits">
+<h2>📱 <span>NOS TÉLÉPHONES - TOUT DÉTAILLÉ</span></h2>
+<p class="sub">Neufs & Occasions vérifiés • Garantie • Prix de grossiste</p>
+
+<div class="cat-title" id="iphone">🍎 APPLE iPHONE - TOUS LES MODÈLES DÉTAILLÉS</div>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500"><div><h3>iPhone 11</h3><p>64GB / 128GB / 256GB - Neuf & Occasion - Double caméra</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%2011">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=500"><div><h3>iPhone 12 / 12 Pro / 12 Pro Max</h3><p>128GB / 256GB / 512GB - 5G - Écran OLED</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%2012">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500"><div><h3>iPhone 13 / 13 Pro / 13 Pro Max</h3><p>128GB - 1TB - Le plus demandé à Lomé</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%2013">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1678911820860-e2c567c9f5b8?w=500"><div><h3>iPhone 14 / 14 Plus / 14 Pro Max</h3><p>Dynamic Island - Caméra 48MP - SOS</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%2014">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500"><div><h3>iPhone 15 / 15 Pro / 15 Pro Max</h3><p>Titane - USB-C - Neuf scellé - Garantie</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%2015">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1696446701796-da61225697cc?w=500"><div><h3>iPhone 16 / 16 Pro / 16 Pro Max</h3><p>Dernier modèle - Bouton Caméra - IA Apple</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%2016">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=500"><div><h3>iPhone X / XR / XS / XS Max</h3><p>Bon état - Petit budget - Face ID</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%20X">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500"><div><h3>iPhone 8 / 8 Plus / SE 2022</h3><p>Pour petit budget - Fiable - Bouton Home</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20iPhone%20SE">Commander</a></div></div>
+</div>
+
+<div class="cat-title">📱 SAMSUNG GALAXY - TOUT DÉTAILLÉ</div>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500"><div><h3>Galaxy S23 / S24 / S24 Ultra</h3><p>Haut de gamme - S Pen - Caméra 200MP</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20Samsung%20S24">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"><div><h3>Galaxy A14 / A15 / A24</h3><p>Les plus vendus - Batterie 5000mAh</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20Samsung%20A">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500"><div><h3>Galaxy A34 / A54 / A55</h3><p>Super écran AMOLED 120Hz - 5G</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20Samsung%20A54">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"><div><h3>Galaxy Z Flip 5 / Z Fold 5</h3><p>Téléphone pliable - Double écran</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20Samsung%20Flip">Commander</a></div></div>
+</div>
+
+<div class="cat-title">🔥 TECNO • INFINIX • ITEL • REDMI - TOUT DÉTAILLÉ</div>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"><div><h3>Tecno Spark 10 / 20, Camon 20 / 30, Pova 5</h3><p>Grande batterie - Belle caméra</p><div class="price">À partir de 45.000 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20Tecno">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"><div><h3>Infinix Hot 40, Note 30, Smart 8</h3><p>Écran grand - Charge rapide</p><div class="price">À partir de 40.000 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20Infinix">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"><div><h3>Itel A60 / A70 / S23 / P40</h3><p>Petit prix - Grande batterie 5000mAh</p><div class="price">À partir de 30.000 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20Itel">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500"><div><h3>Redmi 13C / Note 13 / Poco X6</h3><p>Xiaomi - Puissant - Pas cher</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20Redmi">Commander</a></div></div>
+</div>
+
+<h2 style="margin-top:40px">🎧 <span>ACCESSOIRES - TOUT DÉTAILLÉ</span></h2>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=500"><div><h3>Chargeurs Originaux</h3><p>Rapide 25W, 45W, Sans fil MagSafe, Type-C, Lightning, 2 ports</p><div class="price">À partir de 2.500 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20chargeur">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500"><div><h3>Écouteurs Bluetooth</h3><p>AirPods Pro 2, Oraimo FreePods, JBL Tune, Samsung Buds 2</p><div class="price">À partir de 5.000 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20%C3%A9couteurs">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500"><div><h3>Écrans de Protection</h3><p>Verre trempé, Anti-casse, Anti-empreinte, Anti-regard privé, Céramique</p><div class="price">À partir de 1.500 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20%C3%A9cran%20protection">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1601593346740-925612772716?w=500"><div><h3>Coques & Étuis</h3><p>Anti-choc, Design, Transparent, Cuir, Personnalisées avec photo</p><div class="price">À partir de 1.500 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20coque">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1588508065123-287b28e013da?w=500"><div><h3>Câbles & Adaptateurs</h3><p>USB-C, Lightning, Micro-USB, OTG, Câble tressé 2m, Adaptateur iPhone</p><div class="price">À partir de 1.000 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20cable">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500"><div><h3>Batteries Externes</h3><p>Power Bank 10000mAh, 20000mAh, Charge rapide, Avec écran, MagSafe</p><div class="price">À partir de 8.000 F</div><a href="https://wa.me/22897865996?text=Je%20veux%20power%20bank">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"><div><h3>Casques & Haut-parleurs</h3><p>JBL Flip, Oraimo Boom, Casque Bluetooth avec micro, Mini enceinte</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20casque">Commander</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"><div><h3>Montres Connectées</h3><p>Apple Watch, Samsung Watch, Oraimo Watch, Montre enfant avec GPS</p><div class="price">Prix sur WhatsApp</div><a href="https://wa.me/22897865996?text=Je%20veux%20montre">Commander</a></div></div>
+</div>
+
+<!-- APPLICATIONS DETAILLEES -->
+<div id="apps" class="app-box" style="text-align:left">
+<h3 style="text-align:center">📲 APPLICATIONS - TOUT DÉTAILLÉ</h3>
+<p style="text-align:center">Installation rapide • Configuration • Transfert • Mise à jour • Compte créé pour toi</p>
+
+<div class="detail-box" style="background:rgba(0,0,0,.25);border:none">
+<h3>👶 POUR LES ENFANTS - TOUT DÉTAILLÉ</h3>
+<h4>📚 1. Applications Éducatives :</h4>
+<ul>
+<li><b>Apprendre à lire & écrire :</b> Alphabet français, Syllabes, Lecture CP, Apprendre à écrire</li>
+<li><b>Apprendre à compter :</b> Maths pour enfants, Tables de multiplication, Chiffres, Calcul mental</li>
+<li><b>Apprendre l'anglais :</b> Duolingo Kids, ABC Kids, Lingokids, Anglais pour enfants</li>
+<li><b>Apprendre le français :</b> Orthographe, Grammaire, Dictée, Conjugaison pour enfants</li>
+<li><b>Coran & Religion :</b> Apprendre le Coran pour enfants, Histoires des Prophètes, Prière pour enfants, Bible pour enfants</li>
+</ul>
+<h4>🎮 2. Jeux Pour Enfants :</h4>
+<ul>
+<li><b>Jeux de coloriage & dessin :</b> Coloriage magique, Dessin pour enfants, Peinture</li>
+<li><b>Jeux de puzzles :</b> Puzzles animaux, Mémoire, Formes et couleurs</li>
+<li><b>Jeux d'aventure :</b> Roblox Kids, Minecraft Éducatif, Subway Surfers, Temple Run</li>
+<li><b>Jeux de construction :</b> LEGO, Minecraft, Jeux de construction</li>
+</ul>
+<h4>🛡️ 3. Sécurité Enfants :</h4>
+<ul>
+<li>YouTube Kids sécurisé - Que des vidéos pour enfants</li>
+<li>Contrôle parental - Papa / Maman contrôle le temps d'écran</li>
+<li>Blocage des mauvaises applications - Protection totale</li>
+<li>Suivi GPS enfant - Tu sais où est ton enfant</li>
+</ul>
+
+<h3>🧑 POUR LES ADULTES - TOUT DÉTAILLÉ</h3>
+<h4>💬 1. Réseaux Sociaux & Messages :</h4>
+<ul>
+<li><b>Messages :</b> WhatsApp, WhatsApp Business, Messenger, Telegram, Signal</li>
+<li><b>Réseaux :</b> TikTok, Instagram, Facebook, Snapchat, Twitter / X, Threads</li>
+<li><b>Vidéos :</b> YouTube, YouTube Studio, TikTok Studio, CapCut pour monter vidéos</li>
+</ul>
+<h4>💼 2. Travail & Business :</h4>
+<ul>
+<li><b>Vendre en ligne :</b> WhatsApp Business, Jumia, Facebook Marketplace, TikTok Shop</li>
+<li><b>Bureautique :</b> Google Drive, Gmail, Google Docs, Microsoft Word, Excel, PDF</li>
+<li><b>Design & Montage :</b> Canva, CapCut, PicsArt, Photoshop Express, InShot</li>
+<li><b>Argent :</b> Flooz, TMoney, Wave, Orange Money, PayPal, Binance, Crypto</li>
+</ul>
+<h4>🎮 3. Jeux Pour Adultes :</h4>
+<ul>
+<li><b>Jeux de guerre :</b> Free Fire, PUBG Mobile, Call of Duty Mobile</li>
+<li><b>Jeux de foot :</b> eFootball, FIFA Mobile, Dream League Soccer</li>
+<li><b>Jeux de cartes & paris :</b> Ludo King, Domino, Jeux de cartes, 1xBet, Betclic</li>
+<li><b>Autres jeux :</b> Candy Crush, GTA, Car Parking, Moto</li>
+</ul>
+<h4>🙏 4. Santé, Religion & Vie :</h4>
+<ul>
+<li><b>Santé :</b> MyFitnessPal, Marche, Méditation, Sommeil, Suivi de poids</li>
+<li><b>Religion :</b> Coran complet avec audio, Bible, Heures de prière, Qibla, Chapelet</li>
+<li><b>Transport :</b> Yango, Bolt, Google Maps, Waze</li>
+<li><b>Apprendre :</b> Duolingo anglais, Apprendre à conduire, Code de la route</li>
+</ul>
+
+<h3>🛠️ NOS SERVICES APPLICATIONS :</h3>
+<ul>
+<li>✅ Installation de TOUTES les applications en 2 minutes</li>
+<li>✅ Transfert de données : Ancien téléphone → Nouveau téléphone (photos, WhatsApp, contacts)</li>
+<li>✅ Déblocage : iCloud, Mot de passe oublié, Schéma oublié, Compte Google</li>
+<li>✅ Création de comptes : Google, iCloud, WhatsApp Business, TikTok, Facebook</li>
+<li>✅ Mise à jour : iPhone iOS, Android, Toutes les applications</li>
+<li>✅ Nettoyage téléphone lent : Il redevient rapide</li>
+</ul>
+</div>
+<div style="text-align:center"><div class="badges"><div class="badge">WhatsApp</div><div class="badge">TikTok</div><div class="badge">Jeux</div><div class="badge">Transfert</div><div class="badge">Déblocage</div></div>
+<a href="https://wa.me/22897865996?text=Bonjour%2C%20je%20veux%20une%20application" style="display:inline-block;margin-top:16px;background:white;color:black;padding:12px 20px;border-radius:50px;text-decoration:none;font-weight:800">Demander une Application</a></div>
+</div>
+
+<div class="netflix">
+<h3>🎬 ABONNEMENT NETFLIX - TOUT DÉTAILLÉ</h3>
+<p style="margin-top:8px">Compte officiel • Activation en 5 minutes • Tous écrans • Support 24h/24</p>
+<div style="text-align:left;max-width:600px;margin:14px auto;background:rgba(0,0,0,.4);padding:14px;border-radius:14px;line-height:1.8;font-size:14px">
+<b>Nos formules :</b><br>
+• <b>Basic :</b> 1 écran - Qualité HD - Pour 1 personne<br>
+• <b>Standard :</b> 2 écrans - Full HD - Pour couple / famille<br>
+• <b>Premium :</b> 4 écrans - 4K Ultra HD - Pour toute la famille<br>
+• <b>Profil personnel :</b> Ton propre profil avec ton nom<br>
+<b>Durées :</b> 1 Mois, 3 Mois, 6 Mois, 1 An - Tu choisis
+</div>
+<a href="https://wa.me/22897865996?text=Je%20veux%20abonnement%20Netflix" style="display:inline-block;margin-top:8px;background:#e50914;color:white;padding:12px 20px;border-radius:50px;text-decoration:none;font-weight:800">Activer mon Netflix 🎬</a>
+</div>
+
+<div class="canal">
+<h3>📺 CANAL+ & CHAÎNES TV - TOUT DÉTAILLÉ</h3>
+<p style="margin-top:8px;color:white">Tous les bouquets • Réabonnement rapide en 2 minutes • Sans déplacement</p>
+<div style="text-align:left;max-width:600px;margin:14px auto;background:rgba(0,0,0,.4);padding:14px;border-radius:14px;line-height:1.8;font-size:14px;color:white">
+<b>Nos bouquets Canal+ :</b><br>
+• <b>Access :</b> Chaînes locales + Novelas - Le moins cher<br>
+• <b>Évasion :</b> + Films, Séries, Documentaires, Enfants<br>
+• <b>Essentiel+ :</b> + Sport, Cinéma, + de chaînes<br>
+• <b>Intégral :</b> TOUTES les chaînes Canal+ - Sport + Cinéma + Séries<br>
+<b>Autres :</b> Disney+, Amazon Prime Video, Apple TV+, DSTV, IPTV, Startimes
+</div>
+<a href="https://wa.me/22897865996?text=Je%20veux%20r%C3%A9abonnement%20Canal%2B" style="display:inline-block;margin-top:8px;background:#ffcc00;color:black;padding:12px 20px;border-radius:50px;text-decoration:none;font-weight:800">Réabonner Canal+ 📺</a>
+</div>
+
+<div class="section" style="padding-top:30px"><div class="why"><h2>Pourquoi ZANNAGA ?</h2>✅ Produits 100% Originaux & Garantie<br>✅ Prix de Grossiste à Lomé<br>✅ Livraison Rapide : Bè, Hedzranawoé, Agoè, Adidogomé, Aéroport<br>✅ Paiement à la livraison - Flooz / TMoney / Espèces<br>✅ Service après-vente - On reste avec toi après l'achat</div></div>
+
+<footer><h3>ZANNAGA STORES</h3><p>ZANNAGA STORES - Créé par ADEVE KOFFI HERVE à Lomé, Togo</p><p>Lomé, Togo</p><p>WhatsApp : <a href="https://wa.me/22897865996">+228 97865996 - Clique ici</a></p><p>Appel : +228 97865996</p><p style="margin-top:10px;opacity:.6">© 2026 ZANNAGA STORES par ADEVE KOFFI HERVE - Tous droits réservés</p></footer>
+<a class="float-wa" href="https://wa.me/22897865996?text=Bonjour%20ZANNAGA%20STORES">💬</a>
+</body>
+</html>
